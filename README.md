@@ -7,7 +7,7 @@ def addition(x,y):
 
     
 print("1 is for addition ")
-prindef multiply(x,y):
+def multiply(x,y):
     print(x*y)
 def substraction(x,y):
     print(x-y)
