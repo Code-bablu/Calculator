@@ -13,10 +13,14 @@ def substraction(x,y):
     print(x-y)
 def division(x,y):
     print(x/y)
-t("2 is for multiply ")
+def square(x):
+    print(x**2)
+
+
+print("2 is for multiply ")
 print("3 is for substraction")
 print("4 is for division ")
-
+print("5 is for Square ")
 get_input=int(input("="))
 match get_input:
     case 1:
@@ -38,6 +42,7 @@ match get_input:
        b=int(input("b="))
        division(a,b)
     case 5:
-        print("have a great day ! ")
+       a=int(input("a="))       
+       square(a)
        
         
